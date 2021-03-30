@@ -1,0 +1,240 @@
+#app{
+    width: 65%;
+    margin: auto;
+    font-family: "adobe-clean", sans-serif;
+    color : #5C5C5C;
+    
+
+}
+.price-card-related {
+    font-size: 12px;
+    font-weight: 10;
+    margin-left: -18px;
+}
+
+.related-card{
+    margin-bottom: 25px;
+}
+.outfit-card{
+    margin-bottom: 25px;
+}
+
+
+.container{
+  margin-top: 30px;
+}
+.title-cards, .title-cards1{
+    font-size: 13px;
+    font-weight: 2px;
+}
+.title-cards1{
+  margin-left : 13px;
+}
+
+.card-customize{
+    width: 14px;
+    height: 290px;
+    position: relative;
+    border: 0.5px black solid;
+    border-radius:0%;
+    
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    margin-left: -18px;
+
+}
+.card-text-little{
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 4px;
+  margin-left: -18px;
+
+} 
+.card-title{
+    font-size: 13px;
+    margin-top: -10px;
+    margin-left: -18px;
+    margin-bottom: -15px;
+}
+.card-body{
+    margin-top: -13px;
+    margin-left: 5px;
+}
+
+
+.close-btn{
+  margin-left: 165px;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: black;
+  position: absolute;
+  border:none;
+  color: black;
+-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+
+-webkit-text-stroke-color: white;
+background: linear-gradient(90deg,black 100%, white 100%);
+
+-webkit-text-fill-color: white;
+}
+.close-back{
+  background-color : black;
+  position:absolute;
+  height:12px;
+  width:12px;
+  
+  border-radius: 50%;
+}
+.pos-close-btn{
+  position:absolute;
+  margin-top: -10px;
+  margin-left:-7px;
+
+}
+.star-btn{
+    margin-left: 160px;
+    margin-top: 15px;
+    font-size: 14px;
+    background-color: transparent;
+    position: absolute;
+    border:none;
+    color: white;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: white;
+  background: linear-gradient(90deg,black 100%, white 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.star-rating{
+  margin-top: -8px;
+  margin-left: -18px;
+  font-size: 12px;
+
+}
+
+
+.Colored-Star-rating-empty{
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #525252;
+  background: linear-gradient(90deg,#525252 0%, white 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Colored-Star-rating{
+  color: #525252;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.1px;
+  -webkit-text-stroke-color: #525252;
+}
+
+#theCarousel1{
+  margin: -15px;
+}
+
+@media (min-width: 768px) {
+    .multi-item-carousel .carousel-inner .carousel-item {
+      margin-right: inherit;
+    }
+    .multi-item-carousel .carousel-inner .carousel-item.active + .carousel-item,
+    .multi-item-carousel .carousel-inner .carousel-item.active + .carousel-item + .carousel-item {
+      display: block;
+      margin-left: -250px;
+    }
+    .multi-item-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .multi-item-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .multi-item-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+      transition: none;
+    }
+    .multi-item-carousel .carousel-inner .carousel-item.active + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -33.33333333%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+    .multi-item-carousel .carousel-inner .carousel-item-next,
+    .multi-item-carousel .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    .multi-item-carousel .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+    .multi-item-carousel .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item,
+    .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .multi-item-carousel .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+    .multi-item-carousel .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .multi-item-carousel .carousel-item-prev.carousel-item-right + .carousel-item,
+    .multi-item-carousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .multi-item-carousel .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      display: block;
+      visibility: visible;
+    }
+  }
+  /* .carousel-control-prev-icon:after {
+    width: 14px;
+      height: 14px;
+    content: '<';
+    font-size: 30px;
+    color: black;
+    
+  } */
+  
+  .carousel-control-next-icon
+  {
+      width: 14px;
+      height: 14px;
+      background-color: red;
+      margin-left: -180px;
+    
+    
+  }
+  
+  
+  .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+  .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+      .MultiCarousel .MultiCarousel-inner .item { float: left;}
+      .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+  .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+  .MultiCarousel .leftLst { left:0; }
+  .MultiCarousel .rightLst { right:0; }
+  
+      .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+
+
+      .rec.rec-arrow:hover {
+        background-color: #525252;
+      }
+      .rec.rec-arrow:focus {
+        background-color: #525252;
+      }
+
+      .rec.rec-arrow:disabled {
+    visibility: hidden;
+}

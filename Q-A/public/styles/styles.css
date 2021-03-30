@@ -1,0 +1,137 @@
+#app{
+    width: 940px;
+    margin: auto;
+    font-family: “adobe-clean”, sans-serif;
+    color:#5C5C5C,
+}
+
+/* .cont{
+  color: red
+} */
+
+.search-input {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding: 15px 45px 15px 15px;
+  border-color:black;
+  transition: all .4s;
+}
+
+
+.search-btn {
+  background-color: transparent;
+  font-size: 18px;
+  padding: 6px 9px;
+  margin-left:-45px;
+  border:none;
+  transition: all .4s;
+  z-index: 10;
+}
+
+
+.MoreAnswerdQuestions{
+  padding: 16px 19px;
+  background-color: transparent;
+  margin-bottom: -100px;  
+}
+
+.AddQuestions{
+  padding: 16px 19px ;
+  background-color: transparent;  
+   margin-bottom: 200px;
+   margin-left: -150px;
+}
+
+#adding{
+    margin-left: 15px;
+}
+.btn-add{
+    margin-left: 400px;
+   margin-top: -35px; 
+   display: flex;  
+}
+
+.ansewer{
+  font-size: 14px;
+  margin-left: 22px;
+  margin-top: -33px;
+  color: #5C5C5C;
+}
+.row {
+  padding-bottom:10px !important;
+}
+.mainstyle{
+  padding-bottom:15px !important;
+}
+.user{
+  font-size: 14px;
+  margin-left: 22px;
+  margin-top: 20px;
+  color: #5C5C5C;
+  
+}
+/* ---------------------------------------------------------------- */
+
+
+.one-Question-Helpful{
+    margin-top: 14px;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-left: 24px;
+}
+
+.one-Question-Helpful-answer{
+      margin-top: -8px;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-left: 24px;
+}
+
+.report-button-one-Question{
+    font-size: 13px;
+    color :#5C5C5C;
+    text-decoration: underline;
+    margin-top: -5px;
+    
+}
+.Yes-button-one-Question{
+    font-size: 13px;
+    color :#5C5C5C;
+    margin-left: -8px;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    
+}
+.Vertical-Line{
+    border-left: 1.4px solid #5C5C5C;
+    height: 17px;
+    margin-bottom: -3px;
+    display: inline-block;
+}
+
+.Count-Helpful-Yes{
+    font-size: 10px;
+    display: inline-block;
+} 
+
+/* [class*="col-"] {
+  width: 100%;
+} */
+
+/* @media only screen and (max-width: 50vw) {
+  #app {
+    color: blue;
+  }
+  /* For mobile phones:  */
+   /* [class*="col-"] {
+    width: 100%; 
+   }  */
+
+  /* } */
+
+/* @media only screen and (min-width: 754px) {
+#app {background: blue;}
+/* }  */
